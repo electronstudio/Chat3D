@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Chat3D">
+    <output-path>$PROJECT_DIR$/out/artifacts/Client</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="uk.co.aphasiac.Chat3D.client.Client3DFrame" />
+        <option name="description" value="3chat" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="image" />
+        <option name="title" value="Chat3D" />
+        <option name="vendor" value="Aphasic" />
+        <option name="version" value="1" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Chat3D.jar">
+        <element id="module-output" name="Chat3D" />
+      </element>
+      <element id="library" level="project" name="libs" />
+      <element id="directory" name="bundles">
+        <element id="directory" name="Chat3D">
+          <element id="directory" name="models">
+            <element id="dir-copy" path="$PROJECT_DIR$/models" />
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
