@@ -16,14 +16,16 @@
       <element id="archive" name="Chat3D.jar">
         <element id="module-output" name="Chat3D" />
       </element>
-      <element id="library" level="project" name="libs" />
       <element id="directory" name="bundles">
         <element id="directory" name="Chat3D">
-          <element id="directory" name="models">
-            <element id="dir-copy" path="$PROJECT_DIR$/models" />
+          <element id="directory" name="app">
+            <element id="directory" name="models">
+              <element id="dir-copy" path="$PROJECT_DIR$/models" />
+            </element>
           </element>
         </element>
       </element>
+      <element id="library" level="project" name="libs" />
     </root>
   </artifact>
 </component>
